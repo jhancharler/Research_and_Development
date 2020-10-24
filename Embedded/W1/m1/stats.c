@@ -25,19 +25,33 @@ void main() {
                               201,   6,  12,  60,   8,   2,   5,  67,
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
+  print_array(test, SIZE);
 
 }
 
-void print_statistics(int* arr, int size);
+void print_statistics(unsigned char arr[], int size)
+{}
 
-void print_array(int* arr, int size);
+void print_array(unsigned char arr[], int size){
 
-int find_median(int* arr, int size);
+	printf("[");
+	for (int i = 0; i < size; i++){
+		printf("%i, ", arr[i]);
+	}
+	printf("\b\b]\n");	// remove the final comma and space
+}
 
-int find_mean(int* arr, int size);
+ unsigned char find_median(unsigned char arr[], int size)
+ {}
 
-int find_maximum(int* arr, int size);
+ unsigned char find_mean(unsigned char arr[], int size)
+ {}
 
-int find_minimum(int* arr, int size);
+ unsigned char find_maximum(unsigned char arr[], int size)
+ {}
 
-int* sort_array(int* arr, int size);
+ unsigned char find_minimum(unsigned char arr[], int size)
+ {}
+
+ unsigned char* sort_array(unsigned char arr[], int size)
+ {}

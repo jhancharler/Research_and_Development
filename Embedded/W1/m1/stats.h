@@ -24,7 +24,7 @@
  *
  * @return Void. 
  */
-void print_statistics(int* arr, int size);
+void print_statistics(unsigned char arr[], int size);
 
 /**
  * @brief Prints array to screen
@@ -34,7 +34,7 @@ void print_statistics(int* arr, int size);
  *
  * @return Void. 
  */
- void print_array(int* arr, int size);
+ void print_array(unsigned char arr[], int size);
 
  /**
  * @brief Returns median value of array (rounded down)
@@ -44,7 +44,7 @@ void print_statistics(int* arr, int size);
  *
  * @return The median of array. 
  */
- int find_median(int* arr, int size);
+ unsigned char find_median(unsigned char arr[], int size);
 
  /**
  * @brief Returns the mean of an array
@@ -54,7 +54,7 @@ void print_statistics(int* arr, int size);
  *
  * @return The mean of array.
  */
- int find_mean(int* arr, int size);
+ unsigned char find_mean(unsigned char arr[], int size);
 
  /**
  * @brief Returns the maximum number in an array
@@ -64,7 +64,7 @@ void print_statistics(int* arr, int size);
  *
  * @return The max value in array.
  */
- int find_maximum(int* arr, int size);
+ unsigned char find_maximum(unsigned char arr[], int size);
 
  /**
  * @brief Returns the minimum number in an array
@@ -74,7 +74,7 @@ void print_statistics(int* arr, int size);
  *
  * @return The min value in array.
  */
- int find_minimum(int* arr, int size);
+ unsigned char find_minimum(unsigned char arr[], int size);
 
  /**
  * @brief Sort and returns array using ...
@@ -84,6 +84,6 @@ void print_statistics(int* arr, int size);
  *
  * @return The pointer to the start of the array.
  */
- int* sort_array(int* arr, int size);
+ unsigned char* sort_array(unsigned char arr[], int size);
 
 #endif /* __STATS_H__ */
